@@ -1,0 +1,21 @@
+<app-header [titulo]="titulo || 'Alert Page'"></app-header> <!-- Si titulo es vacio o no existe que ponga Alert Page-->
+<!-- 
+
+-->
+
+<ion-content>
+
+  <ion-button expand="full" 
+              color="primary" 
+              (click)="presentAlert()">
+    Mostrar Alerta
+  </ion-button>
+
+  <ion-button expand="full" 
+              color="secondary" 
+              (click)="presentAlertPrompt()">
+    Mostrar Input
+  </ion-button>
+
+
+</ion-content>
